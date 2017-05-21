@@ -1,0 +1,23 @@
+.sqrs{
+	display: flex;
+	justify-content: space-around;
+}
+
+.sqr{
+	border: 2px solid black;
+	width: 100px;
+	height: 100px;
+	margin: 3%;
+	border-radius: 5px;
+	transition: transform .3s ease-in-out;
+	cursor:  pointer;
+}
+
+.sqr:hover{
+	transform: rotate(45deg);
+}
+
+.red{background-color: red; }
+.blu{background-color: blue; }
+.yel{background-color: yellow; }
+.gre{background-color: green; }
